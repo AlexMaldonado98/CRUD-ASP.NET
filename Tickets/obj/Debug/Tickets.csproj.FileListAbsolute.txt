@@ -1,0 +1,12 @@
+C:\Users\alexm\source\repos\Tickets\Tickets\bin\Debug\Tickets.dll.config
+C:\Users\alexm\source\repos\Tickets\Tickets\bin\Debug\Tickets.dll
+C:\Users\alexm\source\repos\Tickets\Tickets\bin\Debug\Tickets.pdb
+C:\Users\alexm\source\repos\Tickets\Tickets\bin\Debug\EntityFramework.dll
+C:\Users\alexm\source\repos\Tickets\Tickets\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alexm\source\repos\Tickets\Tickets\bin\Debug\EntityFramework.xml
+C:\Users\alexm\source\repos\Tickets\Tickets\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alexm\source\repos\Tickets\Tickets\obj\Debug\Tickets.csproj.AssemblyReference.cache
+C:\Users\alexm\source\repos\Tickets\Tickets\obj\Debug\Tickets.csproj.CoreCompileInputs.cache
+C:\Users\alexm\source\repos\Tickets\Tickets\obj\Debug\Tickets.csproj.CopyComplete
+C:\Users\alexm\source\repos\Tickets\Tickets\obj\Debug\Tickets.dll
+C:\Users\alexm\source\repos\Tickets\Tickets\obj\Debug\Tickets.pdb

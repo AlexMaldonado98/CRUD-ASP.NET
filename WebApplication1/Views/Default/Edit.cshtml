@@ -1,0 +1,39 @@
+﻿@model Tickets.tickets
+<h2>Edit</h2>
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                Nombre
+            </td>
+            <td>
+                @Html.EditorFor(Model => Model.nombre, new { htmlAttributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Descripcion
+            </td>
+            <td>
+                @Html.EditorFor(Model => Model.descripcion, new { htmlAttributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Departamento
+            </td>
+            <td>
+                @Html.EditorFor(Model => Model.departamento, new { htmlAttributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Edit" class="btn btn-default" />
+                <div>
+                    @Html.ActionLink("Back to List", "Index")
+                </div>
+            </td>
+        </tr>
+    </table>
+}

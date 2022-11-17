@@ -1,0 +1,40 @@
+﻿@model List<Tickets.tickets>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table mio">
+    <thead>
+        <tr>
+            <th>
+                nombre
+            </th>
+            <th>
+                descripcion
+            </th>
+            <th>
+                departamento
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.nombre
+        </td>
+        <td>
+            @item.descripcion
+        </td>
+        <td>
+            @item.departamento
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
